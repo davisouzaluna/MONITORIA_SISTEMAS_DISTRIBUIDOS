@@ -84,7 +84,7 @@ int create_srv(int port, int buffer_size){
     struct sockaddr_in srv_addr, client_addr; // declarando as variaveis de endereco
     int opt = 1; // variavel para setar as opcoes do socket(1 para ativar, 0 para desativar)
     socklen_t addrlen = sizeof(client_addr);
-    char *buffer[buffer_size]; // buffer para armazenar os dados recebidos
+    //char *buffer[buffer_size]; // buffer para armazenar os dados recebidos(nao usei, mas caso queira responder o cliente vc usa esse buffer)
 
     /*Criando o socket
 
