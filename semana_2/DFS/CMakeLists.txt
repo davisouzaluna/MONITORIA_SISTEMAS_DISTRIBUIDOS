@@ -13,8 +13,8 @@ set(SOURCES_CLIENT
     client.c
     file_system.c
 )
-add_executable(server ${SOURCES_SERVER})
-add_executable(client ${SOURCES_CLIENT})
+add_executable(dfs_server ${SOURCES_SERVER})
+add_executable(dfs_client ${SOURCES_CLIENT})
 
 target_include_directories(server PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(client PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
