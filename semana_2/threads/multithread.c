@@ -13,6 +13,7 @@ void* ThreadFunction(void* varg)
     count++;
     global++;
     printf("Thread ID: %d, Static: %d, Global: %d\n", myid, count, global);
+    return NULL;
 }
 
 int main()
