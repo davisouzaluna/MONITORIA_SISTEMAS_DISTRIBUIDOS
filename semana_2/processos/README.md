@@ -76,6 +76,8 @@ int main() {
 
 
 ## Exemplos adicionais
+Abaixo há exemplos dos conceitos relacionados ao assunto de Processos. Para compilar os mesmos, veja em [BUILD](../../BUILD.md)
+
 - Exemplificação dos estados de um processo utilizando a API `/proc` do Linux: [Estados de um processo](./process_states.c)
 
 - Exemplificação do processo de criação de um processo, além da demonstração do conceito de hierarquização do mesmo: [Criação de processos](./create_process.c)
