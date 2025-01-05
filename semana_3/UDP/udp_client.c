@@ -16,7 +16,7 @@ int main()
 { 
 	char buffer[100]; 
 	char *message = "Hello Server"; 
-	int sockfd, n; 
+	int sockfd; 
 	struct sockaddr_in servaddr; 
 	
 	// clear servaddr 

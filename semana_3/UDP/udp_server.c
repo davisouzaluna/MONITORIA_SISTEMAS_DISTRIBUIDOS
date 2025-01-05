@@ -13,7 +13,8 @@ int main()
 { 
 	char buffer[100]; 
 	char *message = "Hello Client"; 
-	int listenfd, len; 
+	int listenfd; 
+    socklen_t len;
 	struct sockaddr_in servaddr, cliaddr; 
 	bzero(&servaddr, sizeof(servaddr)); 
 
