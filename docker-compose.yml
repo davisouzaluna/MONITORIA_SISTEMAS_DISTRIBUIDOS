@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  monitoria_sis_dis_build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    command: bash
