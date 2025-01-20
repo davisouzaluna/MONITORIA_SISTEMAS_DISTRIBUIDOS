@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 CMakeFiles/sync_server.dir/sync_srv.c.o -o sync_server 

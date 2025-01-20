@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 CMakeFiles/server.dir/server.c.o -o server  -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/dfs_client.dir/client.c.o CMakeFiles/dfs_client.dir/file_system.c.o -o dfs_client 

@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 CMakeFiles/process_states.dir/process_states.c.o -o process_states 

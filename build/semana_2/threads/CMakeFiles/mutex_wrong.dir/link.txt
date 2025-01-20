@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 CMakeFiles/mutex_wrong.dir/mutex_wrong.c.o -o mutex_wrong  -lpthread 

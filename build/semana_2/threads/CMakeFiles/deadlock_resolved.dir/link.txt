@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 CMakeFiles/deadlock_resolved.dir/deadlock_resolved.c.o -o deadlock_resolved  -lpthread 

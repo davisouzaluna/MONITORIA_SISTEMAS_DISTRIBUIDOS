@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 CMakeFiles/multithread.dir/multithread.c.o -o multithread  -lpthread 
