@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -std=c11 CMakeFiles/thread_simples.dir/thread_simples.c.o -o thread_simples  -lpthread 

@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -std=c11 CMakeFiles/async_server.dir/async_srv.c.o -o async_server 

@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -std=c11 CMakeFiles/create_process.dir/create_process.c.o -o create_process 

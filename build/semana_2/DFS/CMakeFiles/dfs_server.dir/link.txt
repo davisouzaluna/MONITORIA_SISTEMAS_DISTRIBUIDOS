@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/dfs_server.dir/server.c.o CMakeFiles/dfs_server.dir/file_system.c.o -o dfs_server 

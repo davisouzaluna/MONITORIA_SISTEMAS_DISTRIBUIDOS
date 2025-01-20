@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -std=c11 CMakeFiles/mutex_correct.dir/mutex_correct.c.o -o mutex_correct  -lpthread 
