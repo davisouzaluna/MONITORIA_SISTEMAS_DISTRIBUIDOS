@@ -20,4 +20,7 @@ apt install -y build-essential
 echo "Instalando OpenSSL e bibliotecas de desenvolvimento..."
 apt install -y libssl-dev
 
+echo "Instalando a biblioteca que gera uuid..."
+apt install -y uuid-dev
+
 echo "Dependências instaladas com sucesso!"
