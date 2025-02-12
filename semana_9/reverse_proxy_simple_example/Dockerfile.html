@@ -1,0 +1,18 @@
+FROM alpine:latest
+
+# instala o Apache HTTP Server
+RUN apk update && apk add --no-cache apache2
+
+# Adicionando pro apache poder escutar nessa porta(eh a msm que vai ser exposta na rede interna)
+RUN echo "Listen 8080" >> /etc/apache2/httpd.conf
+
+RUN echo "ServerName 127.0.0.1" >> /etc/apache2/httpd.conf
+
+# copia a página HTML(do diretorio do host) para o diretório do apache(serviço dentro do container alpine)
+COPY index.html /var/www/localhost/htdocs/
+
+# expoe a porta 8080 na rede docker. Ou seja, o HOST não terá acesso a esse serviço
+EXPOSE 8080
+
+# Comando para rodar o servidor HTTP
+CMD ["httpd", "-D", "FOREGROUND"]
