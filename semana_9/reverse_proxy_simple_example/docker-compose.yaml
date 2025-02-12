@@ -1,0 +1,23 @@
+
+services:
+  nginx-proxy:
+    container_name: nginx-proxy
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "9090:80"  # Expõe a porta 9090 no host(vc pode acessar nessa porta pelo navegador)
+    depends_on:
+      - http-server
+    
+
+  http-server:
+    container_name: http-server #esse nome eh conhecido na rede interna
+    build:
+      context: .
+      dockerfile: Dockerfile.html
+    
+    expose:
+      - "8080"  #A porta eh a msm que eu coloquei no dockerfile. So esta exposta na rede interna do docker
+
+
